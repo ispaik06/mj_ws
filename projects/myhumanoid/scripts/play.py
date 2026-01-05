@@ -7,7 +7,7 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import DummyVecEnv, VecNormalize
 
 # ✅ 프로젝트 생성 시 자동 치환
-ENV_ID = "myhumanoid-v0"
+ENV_ID = "Humanoid-v5"
 
 RUN_DIR_RE = re.compile(r"^\d{8}_\d{6}$")  # YYYYMMDD_HHMMSS
 

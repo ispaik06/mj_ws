@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: myhumanoid
+Version: 0.0.1
+Requires-Python: >=3.10
+Requires-Dist: gymnasium
+Requires-Dist: mujoco
+Requires-Dist: stable-baselines3
+Requires-Dist: imageio

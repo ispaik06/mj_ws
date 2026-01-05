@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myhumanoid"
+version = "0.0.1"
+requires-python = ">=3.10"
+dependencies = [
+  "gymnasium",
+  "mujoco",
+  "stable-baselines3",
+  "imageio",
+]
+
+[tool.setuptools]
+package-dir = {"" = "source"}
+
+[tool.setuptools.packages.find]
+where = ["source"]

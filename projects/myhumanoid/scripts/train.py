@@ -134,7 +134,7 @@ def main():
     print(f"[run] directory: {run_dir}")
 
     seed = 42
-    n_envs = max(1, min(8, cpu_count() - 1))
+    n_envs = max(1, min(16, cpu_count() - 1))
     n_steps = 2048
     batch_size = 2048
     total_timesteps = 10_000_000

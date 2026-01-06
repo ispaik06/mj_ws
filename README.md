@@ -124,9 +124,9 @@ python scripts/play.py
 
 Each generated project is a Python package installed in **editable mode** (`pip install -e .`).
 
-* ✅ You can `import envs` and `gym.make(ENV_ID)` from anywhere
-* ✅ Changes in `source/` are reflected immediately (no reinstall)
-* ⚠️ If you delete the project folder without uninstalling, you may leave a “broken editable install”
+* You can `import envs` and `gym.make(ENV_ID)` from anywhere
+* Changes in `source/` are reflected immediately (no reinstall)
+* If you delete the project folder without uninstalling, you may leave a “broken editable install”
 
 To remove a project cleanly:
 
